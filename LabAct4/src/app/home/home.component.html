@@ -1,0 +1,13 @@
+<!-- home.component.html -->
+
+<div>
+    <h1>{{ welcomeMessage }}</h1>
+    <p>{{ description }}</p>
+  
+    <button (click)="toggleImage()">Toggle Image</button>
+  
+    <div *ngIf="showImage">
+      <img src="assets/geto.jpg" alt="Geto Image">
+    </div>
+  </div>
+  
