@@ -1,0 +1,25 @@
+<div class="container">
+    <table>
+        <thead> 
+            <th> ID </th>
+            <th> Name </th>
+            <th> Username </th>
+            <th> Email </th>
+            <th> Website </th>
+        </thead>
+        <tbody>
+            <tr  *ngFor = "let user of httpusers">
+                <td> {{user.id}} </td>
+                <td> {{user.name}} </td>
+                <td> {{user.username}} </td>
+                <td> {{user.email}} </td>
+                <td> {{user.website}} </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="footer">
+    <p>Name: Sean Timothy T. Anunciacion</p>
+    <p>Section: Wd:301</p>
+    <p>Date: 02/29/24 </p>
+</div>
