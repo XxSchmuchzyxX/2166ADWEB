@@ -11,7 +11,7 @@ var app = Express();
 app.use(cors());
 
 //Indicate the connection string from mongodb
-var CONNECTION_STRING = 'mongodb+srv://Seant:Kamuti1030@vengeance2024.24mx1zk.mongodb.net/?retryWrites=true&w=majority&appName=Vengeance2024';
+var CONNECTION_STRING = 'mongodb+srv://Seant:<*********>@vengeance2024.24mx1zk.mongodb.net/?retryWrites=true&w=majority&appName=Vengeance2024';
 
 //Indicate the name of the database
 var DATABASENAME = "MyDb";
